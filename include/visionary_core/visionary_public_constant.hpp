@@ -2,11 +2,11 @@
 
 namespace visionary {
 
-enum class BackendType : uint8_t {
+enum class BackendType {
     kBackendVulkan = 0
 };
 
-enum class ImageFormat : uint64_t {
+enum class ImageFormat {
     RGBA8888 = 0
 };
 
